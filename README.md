@@ -79,7 +79,7 @@ I also learned about proper statistical methods (Rubin's Rules) for combining mu
 
 ```
 impute-pro/
-├── impute_pro.py
+├── impute_pro.ipynb
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
