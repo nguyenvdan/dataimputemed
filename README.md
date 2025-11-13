@@ -44,8 +44,8 @@ I trained 5 separate XGBoost models (one on each imputed dataset) and averaged t
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/impute-pro.git
-cd impute-pro
+git clone https://github.com/YOUR_USERNAME/dataimputemed.git
+cd dataimputemed
 pip install -r requirements.txt
 ```
 
