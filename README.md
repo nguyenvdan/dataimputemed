@@ -53,14 +53,22 @@ Python 3.8 required. The requirements.txt includes numpy, pandas, matplotlib, se
 
 ## Usage
 
+To explore the imputation pipeline interactively, open the Jupyter notebook:
+
 ```bash
-python impute_pro.py
+jupyter notebook dataimputemed.ipynb
 ```
+Alternatively, to execute the entire notebook non-interactively and save the output:
+
+```bash
+jupyter nbconvert --to notebook --execute dataimputemed.ipynb --output dataimputemed_executed.ipynb
+```
+
 
 Creates two files:
 
 1. final_imputed_data_with_uncertainty.csv - the imputed data with flags and uncertainty scores
-2. impute_pro_results.png - visualizations showing the results
+2. results.png - visualizations showing the results
 
 The CSV has 24 columns for the 8 features:
 - First 8 columns: the actual imputed values
@@ -78,8 +86,8 @@ I also learned about proper statistical methods (Rubin's Rules) for combining mu
 ## Files
 
 ```
-impute-pro/
-├── impute_pro.ipynb
+dataimputemed/
+├── dataimputemed.ipynb
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
